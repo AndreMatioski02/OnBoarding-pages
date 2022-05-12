@@ -1,0 +1,23 @@
+@import '../var';
+
+.main-texts {
+    width: 100%;
+    h2 {
+        display: block;
+        text-align: center;
+        font-family: $font-style;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    p {
+        width: 75%;
+        display: flex;
+        text-align: center;
+        font-family: $font-style;
+        align-items: center;
+        justify-content: center;
+        margin: 2.125rem auto;
+        font-size: 1.125rem;
+    }
+}
